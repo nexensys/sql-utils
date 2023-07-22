@@ -51,4 +51,8 @@ export class Table<C extends readonly TableColumn<any, any>[]> {
   async ensure(conn: Connection) {
     await setupTable(this as any, conn);
   }
+
+  toString() {
+    return this.name;
+  }
 }
