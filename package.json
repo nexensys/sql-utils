@@ -1,12 +1,14 @@
 {
   "name": "@errorgamer2000/mysql-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MySQL utility classes and functions",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mysql"],
+  "keywords": [
+    "mysql"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
